@@ -1,0 +1,8 @@
+/*milestone-1.html css*/
+
+p.milestone {
+    display: inline-block;
+    overflow-wrap: break-word;
+    max-width: 30%;
+    margin-left: 20px;
+ }
