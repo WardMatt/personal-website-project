@@ -12,7 +12,7 @@ h2 {
 
 h3 {
     font-family: sans-serif, "Lato Black", bold;
-    display: inline-block;
+
 }
 
 div.preface{
@@ -28,23 +28,63 @@ hr {
 
 div.persona{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
+    /*justify-content: center;*/
+
+
+
+}
+
+div.row{
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: nowrap;*/
+    /*width: auto;*/
+}
+
+div.column{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+
+
+    /*flex-basis: 100%;*/
+    /*flex: 1;*/
+}
+
+.leftColumn {
+    display: flex;
+    /*margin: auto;*/
+    /*align-content: space-between;*/
+    /*background-color: blue;*/
+    /*height: 200px;*/
+    flex-wrap: nowrap;
+
+}
+
+.rightColumn {
+    /*margin: auto;*/
+    /*justify-content: flex-end;*/
+    /*background-color: green;*/
+    /*height: 200px;*/
+    /*flex-wrap: wrap;*/
+    width: 150%;
+
 }
 
 p.paragraphStructure {
-    display: block;
-    overflow-wrap: break-word;
-    max-width: 40%;
-    margin-left: 20px;
+    display: flex;
+    /*overflow-wrap: break-word;*/
+    /*max-width: 40%;*/
+    /*margin-left: 20px;*/
     font-family: sans-serif, "Lato Black";
     font-size: medium;
-
  }
 
-/*p.paragraphStructure::before {*/
-/*    display: block;*/
-/*    content: "\A";*/
-/*    white-space: pre;*/
-/*}*/
+figure{
+    margin-left: auto;
+}
+
 
