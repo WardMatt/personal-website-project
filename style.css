@@ -61,26 +61,29 @@ div.column{
     /*background-color: blue;*/
     /*height: 200px;*/
     flex-wrap: nowrap;
+    /*align-content: flex-start;*/
+    /*align-self: start;*/
 
 }
 
 .rightColumn {
     /*margin: auto;*/
-    /*justify-content: flex-end;*/
+    justify-content: flex-end;
     /*background-color: green;*/
     /*height: 200px;*/
     /*flex-wrap: wrap;*/
     width: 150%;
+    /*align-content: flex-end;*/
+    /*text-align: start;*/
+    /*align-self: start;*/
 
 }
 
-p.paragraphStructure {
+p {
     display: flex;
-    /*overflow-wrap: break-word;*/
-    /*max-width: 40%;*/
-    /*margin-left: 20px;*/
     font-family: sans-serif, "Lato Black";
     font-size: medium;
+    align-items: end;
  }
 
 figure{
