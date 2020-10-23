@@ -20,7 +20,7 @@ div.preface{
 }
 
 hr {
-    width: 42%;
+    width: 65%;
     margin-left: .1em;
     margin-bottom: 2em;
     margin-top: 2em;
@@ -90,4 +90,7 @@ figure{
     margin-left: auto;
 }
 
-
+.imageFlex{
+    display: flex;
+    justify-content: space-evenly;
+}
