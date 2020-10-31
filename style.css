@@ -1,4 +1,4 @@
-/*milestone-1.html css*/
+/*milestone-1.html and milestone-2.html css*/
 
 h1 {
     font-family: sans-serif, "Lato Black", bold;
@@ -93,4 +93,71 @@ figure{
 .imageFlex{
     display: flex;
     justify-content: space-evenly;
+}
+
+
+/*body {*/
+/*    background-color: #eaeaea;*/
+/*}*/
+
+/*.hero {*/
+/*    position: relative;*/
+/*    height: 300px;*/
+/*    background-image: linear-gradient(#4568dc, #b06ab3);*/
+/*    */
+/*}*/
+/*svg {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    height: 10vw;*/
+/*    fill: #eaeaea;*/
+/*}*/
+
+/*body, html {*/
+/*    height: 100%;*/
+/*}*/
+
+
+/*.bg {*/
+/*    background-image: url("/images/tech-background.jpg");*/
+
+     /*Full height */
+    /*height: 100%;*/
+
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+
+.bg::before{
+
+    /*background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1))*/
+    content: "";
+    background-image: url("./images/blue-mountains.jpg");
+    background-size: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /*opacity: 0.75;*/
+    background-position: bottom;
+}
+
+.navbg{
+    background-color: rgba(43, 83, 112, .8);
+}
+
+.jumbotron{
+    /*background-image: url("./images/tech-background.jpg");*/
+    /*background-position: center;*/
+    /*background-blend-mode: color-dodge;*/
+    color: white;
+    background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1))
+}
+
+.border{
+    border: 3px black;
 }

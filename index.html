@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!doctype html>
-<html lang="en">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -19,9 +17,11 @@
 </head>
 <body>
 
+
+
 <!--Adding a Lightweight Navbar for easy navigation of the page-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--Start NavBar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark navbg"> <!--Start NavBar-->
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,16 +44,130 @@
     </div>
 </nav>  <!--End NavBar-->
 
-<!--Using Jumbotron for impact selling statement-->
+<div class="bg rellax" data-rellax-speed="-2">
 
-<div class="jumbotron jumbotron-fluid">  <!--Start Jumbotron-->
+<div class="jumbotron jumbotron-fluid rellax mt-5 bg-transparent" data-rellax-speed="-5" style="min-height: 200px">  <!--Start Jumbotron-->
     <div class="container">
         <h1 class="display-4">Fluid jumbotron</h1>
         <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </div>
 </div>  <!--End Jumbotron-->
 
+<div class="rellax" data-rellax-speed="2">
+    <div class="row mt-5 p-3">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5 p-3">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="rellax" data-rellax-speed="10">
+    <div class="mb-5 p-5">
+        <div class="row mt-5 p-3">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Form and Offer-->
+
+<div class="border m-5 p-5 rellax" data-rellax-speed="10">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="node_modules/rellax/rellax.min.js"></script>
+<script>
+    // Accepts any class name
+    let rellax = new Rellax('.rellax');
+</script>
+
+
 <h1>Hello, world!</h1>
+
+<footer>
+    <h3>GoodBye!</h3>
+</footer>
 
 <!-- Optional JavaScript; choose one of the two! -->
 
