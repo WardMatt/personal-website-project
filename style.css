@@ -95,59 +95,25 @@ figure{
     justify-content: space-evenly;
 }
 
-
-/*body {*/
-/*    background-color: #eaeaea;*/
-/*}*/
-
-/*.hero {*/
-/*    position: relative;*/
-/*    height: 300px;*/
-/*    background-image: linear-gradient(#4568dc, #b06ab3);*/
-/*    */
-/*}*/
-/*svg {*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
-/*    height: 10vw;*/
-/*    fill: #eaeaea;*/
-/*}*/
-
-/*body, html {*/
-/*    height: 100%;*/
-/*}*/
-
-
-/*.bg {*/
-/*    background-image: url("/images/tech-background.jpg");*/
-
-     /*Full height */
-    /*height: 100%;*/
-
-    /* Center and scale the image nicely */
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
+/*CSS for index.html*/
 
 .bg::before{
 
     /*background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1))*/
     content: "";
-    background-image: url("./images/blue-mountains.jpg");
-    background-size: auto;
+    background-image: url("./images/blue-cascade-background.jpg");
+    background-size: cover;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    /*opacity: 0.75;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
     background-position: bottom;
 }
 
 .navbg{
-    background-color: rgba(43, 83, 112, .8);
+    background-color: rgba(43, 83, 112, 1);
 }
 
 .jumbotron{
@@ -155,9 +121,32 @@ figure{
     /*background-position: center;*/
     /*background-blend-mode: color-dodge;*/
     color: white;
-    background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1))
+    background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));
+    height: 100vh;
+
 }
 
 .border{
     border: 3px black;
+}
+
+.jumbotron h1 {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    font-size: 6rem;
+}
+
+.jumbotronH2{
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+}
+
+.jumbotron p{
+    font-family: "Lato", sans-serif;
+
+}
+
+.textJumbotron{
+    font-size: 4rem;
+    text-align: right;
 }
