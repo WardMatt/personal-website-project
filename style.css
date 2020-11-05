@@ -109,8 +109,15 @@ figure{
     bottom: 0;
     left: 0;
     opacity: 0.5;
-    background-position: bottom;
+
 }
+
+.bg{
+    background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));
+    background-size: cover;
+    position: absolute;
+}
+
 .backgroundPricing{
     background-color: white;
 }
@@ -123,17 +130,11 @@ figure{
     background-color: rgba(43, 83, 112, 1);
 }
 
-/*.jumbotron{*/
-/*    !*background-image: url("./images/tech-background.jpg");*!*/
-/*    !*background-position: center;*!*/
-/*    !*background-blend-mode: color-dodge;*!*/
-/*    color: white;*/
-/*    background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));*/
-/*    height: 100vh;}*/
+
 
 .tagLine{
     color: white;
-    background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));
+    /*background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));*/
     height: 100vh;
 }
 
@@ -154,16 +155,23 @@ figure{
 .tagLineH2{
     font-family: "Lato", sans-serif;
     text-align: right;
-    /*font-size: 2.5rem;*/
     font-size: calc(100% + 1.25vw + 1.25vh);
+}
+
+.benefitsH2 {
+    font-family: "Lato", sans-serif;
+    font-size: calc(100% + .75vw + .75vh);
 }
 
 .tagLineH3{
     font-family: "Lato", sans-serif;
     text-align: right;
     font-size: calc(100% + .75vw + .75vh);
-
 }
+
+#tagExamples{
+    max-width: 550px;
+
 
 /*.tagLine {*/
 /*    font-family: "Lato", sans-serif;*/
