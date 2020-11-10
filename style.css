@@ -1,100 +1,3 @@
-/*milestone-1.html and milestone-2.html css*/
-
-h1 {
-    font-family: sans-serif, "Lato Black", bold;
-    text-decoration: underline;
-}
-
-h2 {
-    font-family: sans-serif, "Lato Black", bold;
-
-}
-
-h3 {
-    font-family: sans-serif, "Lato Black", bold;
-
-}
-
-div.preface{
-
-}
-
-hr {
-    width: 65%;
-    margin-left: .1em;
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
-
-div.persona{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /*justify-content: center;*/
-
-
-
-}
-
-div.row{
-    display: flex;
-    flex-direction: row;
-    /*flex-wrap: nowrap;*/
-    /*width: auto;*/
-}
-
-div.column{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-
-
-
-    /*flex-basis: 100%;*/
-    /*flex: 1;*/
-}
-
-.leftColumn {
-    display: flex;
-    /*margin: auto;*/
-    /*align-content: space-between;*/
-    /*background-color: blue;*/
-    /*height: 200px;*/
-    flex-wrap: nowrap;
-    /*align-content: flex-start;*/
-    /*align-self: start;*/
-
-}
-
-.rightColumn {
-    /*margin: auto;*/
-    justify-content: flex-end;
-    /*background-color: green;*/
-    /*height: 200px;*/
-    /*flex-wrap: wrap;*/
-    width: 150%;
-    /*align-content: flex-end;*/
-    /*text-align: start;*/
-    /*align-self: start;*/
-
-}
-
-p {
-    display: flex;
-    font-family: sans-serif, "Lato Black";
-    font-size: medium;
-    align-items: end;
- }
-
-figure{
-    margin-left: auto;
-}
-
-.imageFlex{
-    display: flex;
-    justify-content: space-evenly;
-}
-
 /*CSS for index.html*/
 
 .bg::before{
@@ -131,15 +34,11 @@ figure{
     background-color: rgba(43, 83, 112, 1);
 }
 
-
-
 .tagLine{
     color: white;
     /*background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));*/
     height: 100vh;
 }
-
-
 
 .border{
     border: 3px black;
