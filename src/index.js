@@ -5,6 +5,7 @@ const {check, validationResult} = require("express-validator")
 const app = express();
 const bodyParser = require("body-parser")
 const mailgun = require("mailgun-js")
+require("dotenv").config()
 const Recaptcha = require("express-recaptcha").RecaptchaV2
 
 
@@ -48,7 +49,7 @@ const handleSendingEmail = (request,response, next) => {
     const {email, subject, name, message} = request.body
 
     const mailgunData = {
-        to: process.env.MAIL_RECIPIENT,
+        to: process.env.MAIL_RECIPENT,
         from: `Mailgun Sandbox <postmaster@${process.env.MAILGUN_DOMAIN}>`,
         subject: `${name} - ${email} : ${subject}`,
         text: message

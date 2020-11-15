@@ -196,8 +196,10 @@
 
 <div class="border rellax p-5 backgroundForm" data-rellax-speed="-1" style="height: 75vh">
     <div class="row d-flex mx-auto">
+
         <!--Begin Contact Form-->
-        <h2>testing 123</h2>
+
+        <h2>DataTags Information Request Form</h2>
         <form id="contact" action="http://localhost:4200/apis/" method="post" novalidate>
             <div class="form-group">
                 <label for="name">Name</label>
@@ -238,7 +240,7 @@
                 </div>
             </div>
             <!-- Make sure to add site key provided by google recaptcha -->
-            <div class="g-recaptcha" data-sitekey="6LeWC-EZAAAAAHWoarXJ5qJZhv3pYJq1ZrmedIrd"></div>
+            <div class="g-recaptcha" data-sitekey="6LcZyuIZAAAAABmScjAuVMTXyTtMwut6ENkhWqsz"></div>
             <!--  <div class="g-recaptcha" data-sitekey=""></div> -->
             <button class="btn btn-info" type="submit">Submit</button>
             <button class="btn btn-default" type="reset">Reset</button>
@@ -265,8 +267,12 @@
 
 
 
-<footer>
-
+<footer class="py-4 text-white">
+    <div class="container">
+        <a class="text-white" href="https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/"
+           target="_blank">Documentation</a> | <a class="text-white" href="https://github.com/rlewis2892/pwp-form-demo"
+                                                  target="_blank">GitHub</a>
+    </div>
 </footer>
 
     <!-- Jquery and Bootstrap Dependencies -->
@@ -296,11 +302,11 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
     <!-- Google reCAPTCHA -->
-    <!-- Google reCAPTCHA -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <!-- custom jquery script-->
     <script src="script/script.js"></script>
+
 <!--Rellax Script-->
     <script src="node_modules/rellax/rellax.min.js"></script>
     <script>
