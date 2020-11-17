@@ -3,12 +3,12 @@
 .bg::before{
 
     /*background-image: linear-gradient(rgba(76, 148, 200, 1), rgba(23, 45, 61, 1));*/
-    background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, 1));
+    /*background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, 1));*/
     content: "";
-    /*background-image: url("./images/blue-cascade-background.jpg");*/
+    background-image: url("./images/blue-cascade-background.jpg");
     background-size: cover;
     position: absolute;
-    top: 0;
+    top: -20rem;
     right: 0;
     bottom: 0;
     left: 0;
@@ -37,9 +37,9 @@
 }
 
 .tagLine{
-    color: white;
+    color: rgba(43, 83, 112, 1);
     /*background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));*/
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .border{
@@ -60,12 +60,25 @@
     text-align: right;
     font-size: calc(100% + 1.25vw + 1.25vh);
     color: white;
-    margin-bottom: 3rem;
+    /*margin-bottom: 20rem;*/
 }
 
 .benefitsH2 {
     font-family: "Lato", sans-serif;
     font-size: calc(100% + .75vw + .75vh);
+}
+
+.benefitsTopMargin {
+    margin-top: 0rem;
+}
+
+.benefitsBottomMargin {
+    margin-bottom: 10rem;
+}
+
+.benefitsZSpace {
+    position: relative;
+    top: 5rem;
 }
 
 .tagLineH3{
@@ -78,22 +91,28 @@
     max-width: 550px;
 }
 
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
+/*.no-gutters {*/
+/*    margin-right: 0;*/
+/*    margin-left: 0;*/
+/*}*/
 
-.col,
-[class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
+/*.col,*/
+/*[class*="col-"] {*/
+/*    padding-right: 0;*/
+/*    padding-left: 0;*/
+/*}*/
 
 .signUp {
     color: white;
 }
 
 /*Benefit Cards CSS*/
+
+.shadow {
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
 
 .card {
     flex-direction: row;
@@ -105,9 +124,11 @@
     font-size: 26px;
 }
 .card img {
-    width: 35%;
+    width: 36%;
     border-top-right-radius: 0;
     border-bottom-left-radius: calc(0.25rem - 1px);
+    border: thin solid black;
+
 }
 @media only screen and (max-width: 768px) {
     a {
@@ -135,7 +156,7 @@
 /*    text-decoration: none;*/
 /*    !*font-size: 6rem;*!*/
 /*    font-size: calc(100% + 1vw + 1vh);*/
-}
+/*}*/
 
 /*.text-responsive {*/
 /*    font-size: calc(100% + .25vw + .25vh);*/
