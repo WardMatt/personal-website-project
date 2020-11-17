@@ -3,9 +3,9 @@
 .bg::before{
 
     /*background-image: linear-gradient(rgba(76, 148, 200, 1), rgba(23, 45, 61, 1));*/
-    /*background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, 1));*/
+    background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, 1));
     content: "";
-    background-image: url("./images/blue-cascade-background.jpg");
+    /*background-image: url("./images/blue-cascade-background.jpg");*/
     background-size: cover;
     position: absolute;
     top: -20rem;
@@ -32,8 +32,12 @@
     background-color: rgba(43, 83, 112, 1);
 }
 
-.navbg{
+.darkBlueBG{
     background-color: rgba(43, 83, 112, 1);
+}
+
+.blueGradient{
+    background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, .9));
 }
 
 .tagLine{
@@ -128,6 +132,7 @@
     border-top-right-radius: 0;
     border-bottom-left-radius: calc(0.25rem - 1px);
     border: thin solid black;
+    object-fit: contain;
 
 }
 @media only screen and (max-width: 768px) {
