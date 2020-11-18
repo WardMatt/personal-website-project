@@ -28,12 +28,14 @@
     background-color: white;
 }
 
-.backgroundForm {
-    background-color: rgba(43, 83, 112, 1);
-}
 
 .darkBlueBG{
     background-color: rgba(43, 83, 112, 1);
+    color: white;
+}
+
+.darkBlueFont{
+    color: rgba(43, 83, 112, 1);
 }
 
 .blueGradient{
@@ -80,12 +82,12 @@
 }
 
 .benefitsBottomMargin {
-    margin-bottom: 10rem;
+    margin-bottom: 0rem;
 }
 
 .benefitsZSpace {
     position: relative;
-    top: 5rem;
+    top: 1rem;
 }
 
 .tagLineH3{
