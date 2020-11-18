@@ -37,11 +37,14 @@
 }
 
 .blueGradient{
-    background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, .9));
+    background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, .85));
+    background-color: rgba(43, 83, 112, 1);
 }
 
 .tagLine{
-    color: rgba(43, 83, 112, 1);
+    /*color: rgba(43, 83, 112, 1);*/
+    color: white;
+    font-family: "Montserrat", sans-serif;
     /*background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1));*/
     /*height: 100vh;*/
 }
@@ -51,7 +54,7 @@
 }
 
 .tagLineH1 {
-    font-family: "Lato", sans-serif;
+    font-family: 'Michroma', sans-serif;
     text-decoration: none;
     text-align: right;
     /*font-size: 6rem;*/
@@ -60,7 +63,7 @@
 }
 
 .tagLineH2{
-    font-family: "Lato", sans-serif;
+    font-family: 'Michroma', sans-serif;
     text-align: right;
     font-size: calc(100% + 1.25vw + 1.25vh);
     color: white;
@@ -68,7 +71,7 @@
 }
 
 .benefitsH2 {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: calc(100% + .75vw + .75vh);
 }
 
@@ -86,7 +89,7 @@
 }
 
 .tagLineH3{
-    font-family: "Lato", sans-serif;
+    font-family: 'Michroma', sans-serif;
     text-align: right;
     font-size: calc(100% + .75vw + .75vh);
 }
