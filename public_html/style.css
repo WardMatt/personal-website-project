@@ -61,7 +61,6 @@
     font-family: 'Michroma', sans-serif;
     text-decoration: none;
     text-align: right;
-    /*font-size: 6rem;*/
     font-size: calc(100% + 2.5vw + 2.5vh);
     color: white;
 }
@@ -71,12 +70,23 @@
     text-align: right;
     font-size: calc(100% + .75vw + .75vh);
     color: white;
-    /*margin-bottom: 20rem;*/
 }
 
 .benefitsH2 {
     font-family: "Montserrat", sans-serif;
     font-size: calc(90% + .25vw + .25vh);
+    font-weight: bold;
+}
+
+.pricingH3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: calc(100% + .25vw + .25vh);
+    font-weight: bold;
+}
+
+.pricingWebdite {
+    font-family: "Montserrat", sans-serif;
+    font-size: calc(100% + .75vw + .75vh);
     font-weight: bold;
 }
 
@@ -262,6 +272,6 @@
     background-color: #ff4d7e;
 }
 
-.pricing6 .font-14 {
-    font-size: 14px;
+.pricing6 .font-12 {
+    font-size: 12px;
 }
