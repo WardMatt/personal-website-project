@@ -1,11 +1,8 @@
 /*CSS for index.html*/
 
 .bg::before{
-
-    /*background-image: linear-gradient(rgba(76, 148, 200, 1), rgba(23, 45, 61, 1));*/
     background-image: linear-gradient(rgba(15, 117, 189, 1), rgba(43, 83, 112, 1));
     content: "";
-    /*background-image: url("./images/blue-cascade-background.jpg");*/
     background-size: cover;
     position: absolute;
     top: -20rem;
@@ -18,21 +15,17 @@
 }
 
 .bg{
-    /*background-image: linear-gradient(rgba(15, 117, 189, 0.8), rgba(43, 83, 112, 1));*/
     background-size: cover;
     background-color: transparent;
-    /*position: absolute;*/
 }
 
 .bgMobile{
     background-image: linear-gradient(rgba(15, 117, 189, 0.8), rgba(43, 83, 112, 1));
-
 }
 
 .backgroundPricing{
     background-color: white;
 }
-
 
 .darkBlueBG{
     background-color: rgba(43, 83, 112, 1);
@@ -84,7 +77,7 @@
     font-weight: bold;
 }
 
-.pricingWebdite {
+.pricingWebsite {
     font-family: "Montserrat", sans-serif;
     font-size: calc(100% + .75vw + .75vh);
     font-weight: bold;
@@ -118,17 +111,6 @@
     max-width: 550px;
 }
 
-/*.no-gutters {*/
-/*    margin-right: 0;*/
-/*    margin-left: 0;*/
-/*}*/
-
-/*.col,*/
-/*[class*="col-"] {*/
-/*    padding-right: 0;*/
-/*    padding-left: 0;*/
-/*}*/
-
 .signUp {
     color: white;
 }
@@ -146,10 +128,7 @@
     align-items: center;
 
 }
-/*.card-title {*/
-/*    font-weight: bold;*/
-/*    font-size: 26px;*/
-/*}*/
+
 .card img {
     width: 40%;
     border-top-right-radius: 0;
@@ -178,17 +157,6 @@
     }
 }
 
-
-/*.tagLine {*/
-/*    font-family: "Lato", sans-serif;*/
-/*    text-decoration: none;*/
-/*    !*font-size: 6rem;*!*/
-/*    font-size: calc(100% + 1vw + 1vh);*/
-/*}*/
-
-/*.text-responsive {*/
-/*    font-size: calc(100% + .25vw + .25vh);*/
-/*}*/
 
 /*price cards css*/
 
